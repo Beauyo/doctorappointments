@@ -6,7 +6,7 @@ roles = ['pyshician', 'nurse', 'patient']
 
     10.times do
         user = User.create(
-        first_name: Faker::TvShows::FamilyGuy.charater,
+        first_name: Faker::TvShows::FamilyGuy.character,
         last_name: Faker::Games::SuperSmashBros.stage
         )
 
